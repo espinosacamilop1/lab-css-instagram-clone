@@ -7,4 +7,98 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: linear-gradient(#1c5380,#06365f), url('../images/bgtile.png');
+  background-repeat: no-repeat;
+  background-size: 100% 300px;
+}
+
+h1{
+  color: rgba(0, 49, 95, 0.741);
+}
+
+a{
+  text-decoration: none;
+}
+
+footer{
+  display: flex;
+  justify-content: space-around;
+  width: 700px;
+  height: 30px;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+footer > a{
+  text-decoration: none;
+  color: hsla(209, 100%, 23%, 0.741);
+  font-weight: bold;
+  font-size: 14px;
+}
+
+footer > p{
+  margin-top: 0;
+  height: 30px;
+  font-weight: bold;
+  font-size: 14px;
+  color: darkgray;
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  margin: 100px;
+  margin-left: 250px;
+  margin-bottom: 50px;
+  width: 1200px;
+}
+
+
+.instagram-header{
+  display: flex;
+  justify-content: space-between;
+  width: 495px;
+}
+ .information-section{
+  margin-left: 40px;
+ }
+
+.information{
+  background-image: url('/images/frame.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding: 40px;
+  padding-top: 20px;
+  width: 50%;
+  margin-right: 0;
+}
+
+.information-spacing{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.button-properties{
+  background-color: #0056a7bd;
+  border-radius: 3px;
+  border: 1px;
+  margin-top: 15px;
+  width: 100px;
+  height: 45px;
+  font-size: 16px;
+  color: aliceblue;
+  padding: 5px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.badge-positioning{
+  margin-right: 15px;
+}
+
+.badge-spacing{
+margin-top: 40px;
+}
+
+.login-format{
+  font-size:16px;
 }
